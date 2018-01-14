@@ -21,7 +21,7 @@ EDA			Create		2018/01/15	Create
 ##Example:		exec SP_Insert_Customer_Contacts 'Test Contact', 'test@gmail.com', '0810810810', 1
 ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
-CREATE PROCEDURE SP_Insert_Customer_Contacts
+ALTER PROCEDURE SP_Insert_Customer_Contacts
 (	
 	@NAME			VARCHAR(100),	
 	@Email			VARCHAR(100) = NULL,
